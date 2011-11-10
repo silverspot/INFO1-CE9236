@@ -27,11 +27,21 @@
 - (void) drawRect: (CGRect) rect
 {
     // Drawing code
-	//Print the name of the class.  See the main function in main.m.
-    Class class = [self class];
-    NSString *string = NSStringFromClass(class);
-	UIFont *font = [UIFont systemFontOfSize: 32];
-	[string drawAtPoint: CGPointZero withFont: font];
+	UIImage *image = [UIImage imageNamed: @"n1.jpg"];	//100 by 100
+	if (image == nil) {
+		NSLog(@"could not find the image");
+		return;
+	}
+    
+	// Drawing code
+	//CGFloat w = self.bounds.size.width;
+	//CGFloat h = self.bounds.size.height;
+    
+    //upper left corner of image
+	CGPoint point = CGPointMake(0,0
+                                );
+    
+	[image drawAtPoint: point];
 }
 
 @end

@@ -9,6 +9,8 @@
 #import "BigView.h"
 #import "LittleView0.h"
 #import "LittleView1.h"
+#import "LittleView2.h"
+#import "LittleView3.h"
 
 @implementation BigView
 
@@ -24,6 +26,8 @@
 		views = [NSArray arrayWithObjects:
 			[[LittleView0 alloc] initWithFrame: self.bounds],
 			[[LittleView1 alloc] initWithFrame: self.bounds],
+            [[LittleView2 alloc] initWithFrame: self.bounds],        
+            [[LittleView3 alloc] initWithFrame: self.bounds],     
 			nil
 		];
 
@@ -46,7 +50,19 @@
 	left.
 	*/
 
-	NSUInteger newIndex = 1 - index;	//toggle the index
+	//NSUInteger newIndex = 1 - index;	//toggle the index
+    
+    NSUInteger newIndex = 0;
+    
+    if (index < 3 )
+    {
+        newIndex = index+1;
+        
+    }else
+    {
+        newIndex = 0;
+    }
+        
 
 	[UIView transitionFromView: [views objectAtIndex: index]
 		toView: [views objectAtIndex: newIndex]

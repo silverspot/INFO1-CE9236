@@ -16,6 +16,12 @@
 		39FDCBB7146316EE003BDDB7 /* BigView.m in Sources */ = {isa = PBXBuildFile; fileRef = 39FDCBB6146316EE003BDDB7 /* BigView.m */; };
 		39FDCBBA14631703003BDDB7 /* LittleView0.m in Sources */ = {isa = PBXBuildFile; fileRef = 39FDCBB914631703003BDDB7 /* LittleView0.m */; };
 		39FDCBBD1463170D003BDDB7 /* LittleView1.m in Sources */ = {isa = PBXBuildFile; fileRef = 39FDCBBC1463170D003BDDB7 /* LittleView1.m */; };
+		BD6E1065146C6779004568ED /* lantern.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD6E1064146C6779004568ED /* lantern.jpg */; };
+		BD6E106A146C69F6004568ED /* n3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD6E1069146C69F6004568ED /* n3.jpg */; };
+		BD6E106D146C6CD5004568ED /* LittleView3.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6E106C146C6CD5004568ED /* LittleView3.m */; };
+		BD6E1075146C6FE2004568ED /* LittleView2.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6E1074146C6FE2004568ED /* LittleView2.m */; };
+		BD6E1078146C7067004568ED /* n1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD6E1076146C7067004568ED /* n1.jpg */; };
+		BD6E1079146C7067004568ED /* n2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD6E1077146C7067004568ED /* n2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +41,14 @@
 		39FDCBB914631703003BDDB7 /* LittleView0.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LittleView0.m; sourceTree = "<group>"; };
 		39FDCBBB1463170D003BDDB7 /* LittleView1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LittleView1.h; sourceTree = "<group>"; };
 		39FDCBBC1463170D003BDDB7 /* LittleView1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LittleView1.m; sourceTree = "<group>"; };
+		BD6E1064146C6779004568ED /* lantern.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lantern.jpg; sourceTree = "<group>"; };
+		BD6E1069146C69F6004568ED /* n3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = n3.jpg; sourceTree = "<group>"; };
+		BD6E106B146C6CC4004568ED /* LittleView3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LittleView3.h; sourceTree = "<group>"; };
+		BD6E106C146C6CD5004568ED /* LittleView3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LittleView3.m; sourceTree = "<group>"; };
+		BD6E1072146C6FD8004568ED /* LittleView2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LittleView2.h; sourceTree = "<group>"; };
+		BD6E1074146C6FE2004568ED /* LittleView2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LittleView2.m; sourceTree = "<group>"; };
+		BD6E1076146C7067004568ED /* n1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = n1.jpg; sourceTree = "<group>"; };
+		BD6E1077146C7067004568ED /* n2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = n2.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +103,10 @@
 				39FDCBB914631703003BDDB7 /* LittleView0.m */,
 				39FDCBBB1463170D003BDDB7 /* LittleView1.h */,
 				39FDCBBC1463170D003BDDB7 /* LittleView1.m */,
+				BD6E1072146C6FD8004568ED /* LittleView2.h */,
+				BD6E1074146C6FE2004568ED /* LittleView2.m */,
+				BD6E106B146C6CC4004568ED /* LittleView3.h */,
+				BD6E106C146C6CD5004568ED /* LittleView3.m */,
 				39FDCBA514631645003BDDB7 /* Supporting Files */,
 			);
 			path = Flip;
@@ -97,6 +115,10 @@
 		39FDCBA514631645003BDDB7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BD6E1076146C7067004568ED /* n1.jpg */,
+				BD6E1077146C7067004568ED /* n2.jpg */,
+				BD6E1069146C69F6004568ED /* n3.jpg */,
+				BD6E1064146C6779004568ED /* lantern.jpg */,
 				39FDCBA614631645003BDDB7 /* Flip-Info.plist */,
 				39FDCBA714631645003BDDB7 /* InfoPlist.strings */,
 				39FDCBAA14631645003BDDB7 /* main.m */,
@@ -156,6 +178,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				39FDCBA914631645003BDDB7 /* InfoPlist.strings in Resources */,
+				BD6E1065146C6779004568ED /* lantern.jpg in Resources */,
+				BD6E106A146C69F6004568ED /* n3.jpg in Resources */,
+				BD6E1078146C7067004568ED /* n1.jpg in Resources */,
+				BD6E1079146C7067004568ED /* n2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,6 +197,8 @@
 				39FDCBB7146316EE003BDDB7 /* BigView.m in Sources */,
 				39FDCBBA14631703003BDDB7 /* LittleView0.m in Sources */,
 				39FDCBBD1463170D003BDDB7 /* LittleView1.m in Sources */,
+				BD6E106D146C6CD5004568ED /* LittleView3.m in Sources */,
+				BD6E1075146C6FE2004568ED /* LittleView2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +302,7 @@
 				39FDCBB414631645003BDDB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

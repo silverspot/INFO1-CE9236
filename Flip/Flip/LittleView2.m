@@ -1,21 +1,21 @@
 //
-//  LittleView0.m
+//  LittleView1.m
 //  Flip
 //
 //  Created by NYU User on 11/3/11.
 //  Copyright (c) 2011 __MyCompanyName__. All rights reserved.
 //
 
-#import "LittleView0.h"
+#import "LittleView2.h"
 
-@implementation LittleView0
+@implementation LittleView2
 
 - (id) initWithFrame: (CGRect) frame
 {
 	self = [super initWithFrame: frame];
 	if (self) {
 		// Initialization code
-		self.backgroundColor = [UIColor whiteColor];
+		self.backgroundColor = [UIColor blueColor];
 	}
 	return self;
 }
@@ -26,17 +26,8 @@
 
 - (void) drawRect: (CGRect) rect
 {
-	// Drawing code
-    //Print the name of the class.  See the main function in main.m.
-    /*
-    Class class = [self class];
-    NSString *string = NSStringFromClass(class);
-	UIFont *font = [UIFont systemFontOfSize: 15];
-	[string drawAtPoint: CGPointZero withFont: font];
-    */
-    
-    
-    UIImage *image = [UIImage imageNamed: @"lantern.jpg"];	//100 by 100
+    // Drawing code
+	UIImage *image = [UIImage imageNamed: @"n2.jpg"];	//100 by 100
 	if (image == nil) {
 		NSLog(@"could not find the image");
 		return;
