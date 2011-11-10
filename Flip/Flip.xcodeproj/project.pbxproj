@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39FDCB9F14631645003BDDB7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39FDCB9E14631645003BDDB7 /* UIKit.framework */; };
+		39FDCBA114631645003BDDB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39FDCBA014631645003BDDB7 /* Foundation.framework */; };
+		39FDCBA314631645003BDDB7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39FDCBA214631645003BDDB7 /* CoreGraphics.framework */; };
+		39FDCBA914631645003BDDB7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 39FDCBA714631645003BDDB7 /* InfoPlist.strings */; };
+		39FDCBAB14631645003BDDB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 39FDCBAA14631645003BDDB7 /* main.m */; };
+		39FDCBAF14631645003BDDB7 /* FlipAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39FDCBAE14631645003BDDB7 /* FlipAppDelegate.m */; };
+		39FDCBB7146316EE003BDDB7 /* BigView.m in Sources */ = {isa = PBXBuildFile; fileRef = 39FDCBB6146316EE003BDDB7 /* BigView.m */; };
+		39FDCBBA14631703003BDDB7 /* LittleView0.m in Sources */ = {isa = PBXBuildFile; fileRef = 39FDCBB914631703003BDDB7 /* LittleView0.m */; };
+		39FDCBBD1463170D003BDDB7 /* LittleView1.m in Sources */ = {isa = PBXBuildFile; fileRef = 39FDCBBC1463170D003BDDB7 /* LittleView1.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		39FDCB9A14631645003BDDB7 /* Flip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39FDCB9E14631645003BDDB7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		39FDCBA014631645003BDDB7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		39FDCBA214631645003BDDB7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		39FDCBA614631645003BDDB7 /* Flip-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Flip-Info.plist"; sourceTree = "<group>"; };
+		39FDCBA814631645003BDDB7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		39FDCBAA14631645003BDDB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		39FDCBAC14631645003BDDB7 /* Flip-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Flip-Prefix.pch"; sourceTree = "<group>"; };
+		39FDCBAD14631645003BDDB7 /* FlipAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipAppDelegate.h; sourceTree = "<group>"; };
+		39FDCBAE14631645003BDDB7 /* FlipAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipAppDelegate.m; sourceTree = "<group>"; };
+		39FDCBB5146316EE003BDDB7 /* BigView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigView.h; sourceTree = "<group>"; };
+		39FDCBB6146316EE003BDDB7 /* BigView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BigView.m; sourceTree = "<group>"; };
+		39FDCBB814631703003BDDB7 /* LittleView0.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LittleView0.h; sourceTree = "<group>"; };
+		39FDCBB914631703003BDDB7 /* LittleView0.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LittleView0.m; sourceTree = "<group>"; };
+		39FDCBBB1463170D003BDDB7 /* LittleView1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LittleView1.h; sourceTree = "<group>"; };
+		39FDCBBC1463170D003BDDB7 /* LittleView1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LittleView1.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39FDCB9714631645003BDDB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39FDCB9F14631645003BDDB7 /* UIKit.framework in Frameworks */,
+				39FDCBA114631645003BDDB7 /* Foundation.framework in Frameworks */,
+				39FDCBA314631645003BDDB7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39FDCB8F14631645003BDDB7 = {
+			isa = PBXGroup;
+			children = (
+				39FDCBA414631645003BDDB7 /* Flip */,
+				39FDCB9D14631645003BDDB7 /* Frameworks */,
+				39FDCB9B14631645003BDDB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39FDCB9B14631645003BDDB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39FDCB9A14631645003BDDB7 /* Flip.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39FDCB9D14631645003BDDB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39FDCB9E14631645003BDDB7 /* UIKit.framework */,
+				39FDCBA014631645003BDDB7 /* Foundation.framework */,
+				39FDCBA214631645003BDDB7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		39FDCBA414631645003BDDB7 /* Flip */ = {
+			isa = PBXGroup;
+			children = (
+				39FDCBAD14631645003BDDB7 /* FlipAppDelegate.h */,
+				39FDCBAE14631645003BDDB7 /* FlipAppDelegate.m */,
+				39FDCBB5146316EE003BDDB7 /* BigView.h */,
+				39FDCBB6146316EE003BDDB7 /* BigView.m */,
+				39FDCBB814631703003BDDB7 /* LittleView0.h */,
+				39FDCBB914631703003BDDB7 /* LittleView0.m */,
+				39FDCBBB1463170D003BDDB7 /* LittleView1.h */,
+				39FDCBBC1463170D003BDDB7 /* LittleView1.m */,
+				39FDCBA514631645003BDDB7 /* Supporting Files */,
+			);
+			path = Flip;
+			sourceTree = "<group>";
+		};
+		39FDCBA514631645003BDDB7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				39FDCBA614631645003BDDB7 /* Flip-Info.plist */,
+				39FDCBA714631645003BDDB7 /* InfoPlist.strings */,
+				39FDCBAA14631645003BDDB7 /* main.m */,
+				39FDCBAC14631645003BDDB7 /* Flip-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39FDCB9914631645003BDDB7 /* Flip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39FDCBB214631645003BDDB7 /* Build configuration list for PBXNativeTarget "Flip" */;
+			buildPhases = (
+				39FDCB9614631645003BDDB7 /* Sources */,
+				39FDCB9714631645003BDDB7 /* Frameworks */,
+				39FDCB9814631645003BDDB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Flip;
+			productName = Flip;
+			productReference = 39FDCB9A14631645003BDDB7 /* Flip.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39FDCB9114631645003BDDB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 39FDCB9414631645003BDDB7 /* Build configuration list for PBXProject "Flip" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 39FDCB8F14631645003BDDB7;
+			productRefGroup = 39FDCB9B14631645003BDDB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39FDCB9914631645003BDDB7 /* Flip */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39FDCB9814631645003BDDB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39FDCBA914631645003BDDB7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39FDCB9614631645003BDDB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39FDCBAB14631645003BDDB7 /* main.m in Sources */,
+				39FDCBAF14631645003BDDB7 /* FlipAppDelegate.m in Sources */,
+				39FDCBB7146316EE003BDDB7 /* BigView.m in Sources */,
+				39FDCBBA14631703003BDDB7 /* LittleView0.m in Sources */,
+				39FDCBBD1463170D003BDDB7 /* LittleView1.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		39FDCBA714631645003BDDB7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39FDCBA814631645003BDDB7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39FDCBB014631645003BDDB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		39FDCBB114631645003BDDB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39FDCBB314631645003BDDB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Flip/Flip-Prefix.pch";
+				INFOPLIST_FILE = "Flip/Flip-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		39FDCBB414631645003BDDB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Flip/Flip-Prefix.pch";
+				INFOPLIST_FILE = "Flip/Flip-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39FDCB9414631645003BDDB7 /* Build configuration list for PBXProject "Flip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39FDCBB014631645003BDDB7 /* Debug */,
+				39FDCBB114631645003BDDB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39FDCBB214631645003BDDB7 /* Build configuration list for PBXNativeTarget "Flip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39FDCBB314631645003BDDB7 /* Debug */,
+				39FDCBB414631645003BDDB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39FDCB9114631645003BDDB7 /* Project object */;
+}
